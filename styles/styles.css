@@ -1,15 +1,5 @@
-* {
-  margin: 0px;
-  padding: 0px;
-}
-
-p {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  background-image: url(/HTML-CSS/Pictures/background.png);
+  background-image: url(/HTML-CSS/background.png);
   z-index: 0;
 }
 
@@ -24,7 +14,6 @@ body {
 .headerFull {
   display: flex;
   justify-content: space-between;
-  height: 174px;
   margin-left: 25px;
   margin-right: 25px;
 }
@@ -33,8 +22,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  /* margin-left: 25px; */
   width: 283px;
-  height: 174px;
+  height: 164px;
 }
 
 .topHeader {
@@ -69,14 +59,6 @@ body {
   font-family: Tahoma;
   font-size: 12px;
   font-weight: bold;
-  line-height: 25px;
-}
-
-.ourContactDetail {
-  color: #128aa7;
-  font-family: Tahoma;
-  font-size: 12px;
-  line-height: 18px;
 }
 
 .contacts {
@@ -86,11 +68,9 @@ body {
   font-family: Tahoma;
   font-size: 12px;
   font-weight: 400;
-  margin-bottom: 30px;
 }
 
 .headerDropDownMenu {
-  margin-top: -4px;
   height: 34px;
   background-color: #303030;
 }
@@ -100,20 +80,18 @@ body {
   flex-direction: row;
   justify-content: space-around;
   list-style-type: none;
-  padding-left: 30px;
-  padding-right: 30px;
+  /* padding-left: 60px;
+  padding-right: 60px; */
 }
 
 .MenuItem {
   display: flex;
   flex-direction: column;
-  padding-top: 6px;
   color: #fff;
   font-family: Tahoma;
   font-size: 14px;
   font-weight: 400;
   list-style-type: none;
-  align-content: flex-start;
 }
 
 .dropDown {
@@ -127,38 +105,11 @@ body {
   list-style-type: none;
   text-align: start;
   padding: 10px, 6px, 44px, 9px;
-  margin-top: 10px;
-}
-.dropDown a {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  color: #fff;
-  font-family: Tahoma;
-  font-size: 14px;
-  line-height: 25px;
-  text-decoration: none;
-  margin-left: 20px;
-}
-.name {
-  position: relative;
-  align-items: center;
 }
 
 li:hover {
   cursor: pointer;
-  position: relative;
-}
-
-ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-ul li {
-  width: auto;
-  display: inline-block;
+  visibility: hidden;
 }
 
 ul li ul {
@@ -175,19 +126,6 @@ ul li ul:hover {
   display: block;
 }
 
-i {
-  border: solid white;
-  border-width: 0 1px 1px 0;
-  display: inline-block;
-  margin-left: 2px;
-  padding: 2px;
-}
-
-.down {
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-}
-
 .content {
   display: flex;
   flex-direction: row;
@@ -196,14 +134,13 @@ i {
 
 .textBlock {
   width: 209px;
-  height: 574px;
+  height: 546px;
   background-color: rgb(228, 220, 220);
 }
 
 .Article {
   text-align: center;
   margin-left: 15px;
-  margin: 12px;
   margin-bottom: 8px;
   color: #424c43;
   font-family: Tahoma;
@@ -237,6 +174,4 @@ i {
   font-family: Tahoma;
   font-size: 12px;
   font-weight: 400;
-  margin-top: 5px;
-  margin-bottom: 5px;
 }
